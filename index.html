@@ -89,7 +89,7 @@
 <!-- блок main-->
 <div class="container">
 	<div class="content row">
-		<div class="main-content col-md-9">
+		<div class="main-content col-md-9 col-12">
 			<h2>Последние публикации</h2>
 
 			<div class="post row">
@@ -97,9 +97,9 @@
 					<img src="images/3.png" alt="" class="img-thumbnail">
 				</div>
 				<div class="post_text col-12 col-md-8">
-					<h2>
+					<h3>
 						<a href="#">Статья</a>
-					</h2>
+					</h3>
 					<i class="far fa-user">Имя автора</i>
 					<i class="far fa-calendar">Dec 3, 2022</i>
 					<p class="preview-text">
@@ -110,8 +110,55 @@
 			</div>
 
 		</div> 
-		<div class="sidebar col-md-3">
-			
+		<div class="sidebar col-md-3 col-12">
+			<div class="section search">
+				<h3>Поиск</h3>
+				<form action="index.html" method="post">
+					<input type="text" name="search-term" class="text-input" placeholder="Введите искомое слово ...">
+				</form>
+			</div>
+
+			<div class="section topics">
+				<h3>Категории</h3>
+				<ul>
+					<li><a href="#">Уход за цветами</a></li>
+					<li><a href="#">Интересные растения</a></li>
+					<li><a href="#">...</a></li>
+					<li><a href="#">...</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- блок footer-->
+<div class="footer container-fluid">
+	<div class="footer-content container">
+		<div class="row">
+			<div class="footer-section about col-md col-12">
+				<h3 class="logo-text">Flower Fairy</h3>
+				<p>
+					Flower Fairy - это блог для ценителей цветов и их эстетики.
+				</p>
+				<div class="contact">
+					<span><i class="fas fa-phone"></i> &nbsp; 8(982)731-28-11</span>
+					<span><i class="fas fa-envelope"></i> &nbsp; diana.sivkova18av@gmail.com</span>
+				</div>
+			</div>
+			<div class="footer-section contact-form col-md-4 col-12">
+				<h3>Контакты</h3>
+				<br>
+					<form action="index.html" method="post">
+						<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+						<textarea rows="4" name="message" class="text-input contact-input" placeholder="Your message..."> </textarea>
+						<button type="submit" class="btn btn-big contact-btn">
+							<i class="fas fa-envelope"></i>
+							Отправить
+						</button>
+					</form>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			&copy; Designed by Sivkova
 		</div>
 	</div>
 </div>
