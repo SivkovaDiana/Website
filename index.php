@@ -1,3 +1,7 @@
+<?php include 'path.php';
+	include 'app/database/db.php';
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -27,37 +31,29 @@
   <!-- блок карусели-->
   <div class="container">
   	<div class="row">
-  		<h2 class="slider-title">Лучшие публикации</h2>
+  		<h2 class="slider-title"> </h2>
   	</div>
-  	<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-inner">
-	    	<div class="carousel-item active">
-	      		<img src="assets/images/1.png" class="d-block w-100" alt="...">
-	      		<div class="carousel-caption-hack carousel-caption d-none d-md-block">
-	        		<h5><a href="">First slide label</a></h5>
-	      		</div>
-	   		</div>
-	    	<div class="carousel-item active">
-	      		<img src="assets/images/2.png" class="d-block w-100" alt="...">
-	      		<div class="carousel-caption-hack carousel-caption d-none d-md-block">
-	        		<h5><a href="">First slide label</a></h5>
-	      		</div>
-	    	</div>
-	    	<div class="carousel-item active">
-	      		<img src="assets/images/3.png" class="d-block w-100" alt="...">
-	      		<div class="carousel-caption-hack carousel-caption d-none d-md-block">
-	        		<h5><a href="">First slide label</a></h5>
-	      		</div>
-	    	</div>
+  	<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="assets/images/7.jpeg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="assets/images/6.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="assets/images/5.jpg" class="d-block w-100" alt="...">
+	    </div>
 	  </div>
-	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    	<span class="visually-hidden">Previous</span>
-  	  </button>
-	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
-    	<span class="visually-hidden">Next</span>
-      </button>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
     </div>
   </div>
 <!-- блок карусели-->
@@ -95,15 +91,7 @@
 				</form>
 			</div>
 
-			<div class="section topics">
-				<h3>Категории</h3>
-				<ul>
-					<li><a href="#">Уход за цветами</a></li>
-					<li><a href="#">Интересные растения</a></li>
-					<li><a href="#">...</a></li>
-					<li><a href="#">...</a></li>
-				</ul>
-			</div>
+			
 		</div>
 	</div>
 </div>

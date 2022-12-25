@@ -1,9 +1,7 @@
 <?php 
-  
+  include "path.php";
   include "app/controllers/users.php";
 ?>
-
-
 
 <!doctype html>
 <html lang="en">
@@ -35,14 +33,18 @@
 <div class="container reg_form">
   <form class="row justify-content-center" method="post" action="reg.php">
     <h2>Форма регистрации</h2>
+    <div class="mb-3 col-12 col-md-4 err">
+      <p><?=$errMsg?></p>
+    </div>
+    <div class="w-100"></div>
     <div class="mb-3 col-12 col-md-4">
       <label for="formGroupExampleInput" class="form-label">Логин</label>
-      <input name="login" type="text" class="form-control" id="formGroupExampleInput">
+      <input name="login" value="<?=$login?>" type="text" class="form-control" id="formGroupExampleInput">
     </div>
     <div class="w-100"></div>
     <div class="mb-3 col-12 col-md-4">
       <label for="exampleInputEmail1" class="form-label">Email</label>
-      <input name="mail" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input name="mail" value="<?=$email?>" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div id="emailHelp" class="form-text">Мы не будем использовать Вашу почту для спама.</div>
     </div>
     <div class="w-100"></div>
