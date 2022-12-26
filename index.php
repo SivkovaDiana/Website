@@ -3,7 +3,7 @@
 ?>
 
 <!doctype html>
-<html lang="en">
+<html lang="ru">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -71,13 +71,30 @@
 				</div>
 				<div class="post_text col-12 col-md-8">
 					<h3>
-						<a href="#">Статья</a>
+						<a href="#">Как сажать гортензию: правила посадки, ухода и подкормки</a>
 					</h3>
-					<i class="far fa-user">Имя автора</i>
+					<i class="far fa-user">Диана Сивкова   </i>
 					<i class="far fa-calendar">Dec 3, 2022</i>
 					<p class="preview-text">
-						Lorem ipsum sit amet consectetur, adipisicing elit.
-						Exercitationem optio possimus a inventore maxime laborum.
+						Каким должен быть саженец
+						Приобрести саженцы можно в специальных магазинах. На корневой системе качественного...
+					</p>
+				</div>
+			</div>
+
+			<div class="post row">
+				<div class="img col-12 col-md-4">
+					<img src="assets/images/3.png" alt="" class="img-thumbnail">
+				</div>
+				<div class="post_text col-12 col-md-8">
+					<h3>
+						<a href="#">Как сажать гортензию: правила посадки, ухода и подкормки</a>
+					</h3>
+					<i class="far fa-user">Диана Сивкова   </i>
+					<i class="far fa-calendar">Dec 3, 2022</i>
+					<p class="preview-text">
+						Каким должен быть саженец
+						Приобрести саженцы можно в специальных магазинах. На корневой системе качественного...
 					</p>
 				</div>
 			</div>
@@ -86,7 +103,7 @@
 		<div class="sidebar col-md-3 col-12">
 			<div class="section search">
 				<h3>Поиск</h3>
-				<form action="index.html" method="post">
+				<form action="search.php" method="post">
 					<input type="text" name="search-term" class="text-input" placeholder="Введите искомое слово ...">
 				</form>
 			</div>
